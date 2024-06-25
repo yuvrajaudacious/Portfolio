@@ -20,7 +20,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, a website developer with a passion for
+            Hi there! I'm Yuvraj, a website developer with a passion for
             creating custom online experiences for my clients. With a skill set
             including HTML, CSS, JavaScript, and React, I have the tools to
             bring any website vision to life.

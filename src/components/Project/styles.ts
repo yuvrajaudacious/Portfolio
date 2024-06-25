@@ -56,10 +56,10 @@ export const Container = styled.section`
         margin-bottom: 2rem;
         a{
           color: #FFFF;
-          border-bottom: 1px solid var(--green);
+          border-bottom: 1px solid blue;
           transition: color 0.25s;
           &:hover{
-            color: var(--green);
+            color: blue;
           }
         }
       }

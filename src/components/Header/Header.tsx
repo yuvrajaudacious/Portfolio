@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
-import Resume from "../../assets/Vinayak_Kumar_Singh_Resume.pdf";
+import { Input } from "antd";
 export function Header() {
   const [isActive, setActive] = useState(false);
   function toggleTheme() {
@@ -19,7 +19,7 @@ export function Header() {
           <span>{"<Yuvraj "}</span>
           <span>{" Baloriya/>"}</span>
         </HashLink>
-        <input
+        <Input
           onChange={toggleTheme}
           className="container_toggle"
           type="checkbox"
